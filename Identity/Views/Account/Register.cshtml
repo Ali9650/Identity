@@ -1,0 +1,49 @@
+﻿@using Identity.ViewModels.Account
+@model RegisterVM
+<div asp-validation-summary="All"> </div>
+
+<form method="post" asp-action="Register" asp-controller="Account" class="login100-form validate-form">
+	<div class="form-group">
+		<input asp-for="EmailAddress" class="form-control" placeholder="Email">
+		<span class="text-danger" asp-validation-for="EmailAddress"> </span>
+	</div>
+
+	<div class="form-group">
+		<input asp-for="PhoneNumber" class="form-control" placeholder="Phone Number">
+	</div>
+
+	<div class="form-group">
+		<input asp-for="Country" class="form-control" placeholder="Country">
+		<span class="text-danger" asp-validation-for="Country"> </span>
+	</div>
+
+	<div class="form-group">
+		<input asp-for="City" class="form-control" placeholder="City">
+		<span class="text-danger" asp-validation-for="City"> </span>
+	</div>
+
+	<div class="form-group">
+		<input asp-for="Password" class="form-control password-field" placeholder="Password">
+		<span toggle=".password-field" class="fa fa-fw fa-eye field-icon toggle-password"></span>
+		<span class="text-danger" asp-validation-for="Password"> </span>
+	</div>
+
+	<div class="form-group">
+		<input asp-for="ConfirmPassword" class="form-control ConfirmPassword-field" placeholder="Confirm Password">
+		<span toggle=".ConfirmPassword-field" class="fa fa-fw fa-eye field-icon toggle-password"></span>
+		<span class="text-danger" asp-validation-for="ConfirmPassword"> </span>
+
+	</div>
+
+
+	<div class="container-login100-form-btn">
+		<button type="submit" class="login100-form-btn">
+			Register
+		</button>
+	</div>
+
+
+
+</form>
+<p> Have you account?</p>
+<p class="w-100 text-center">&mdash; <a asp-controller="Account" asp-action="Login">LOGIN</a></p>
