@@ -13,5 +13,6 @@ namespace Identity.ViewModels.Account
 		[Required(ErrorMessage = "mutleq daxil edilmeli ")]
 		[DataType(DataType.Password)]
 		public string Password { get; set; }
+		public string ? ReturnUrl { get; set; }	
 	}
 }

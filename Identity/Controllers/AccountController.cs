@@ -67,7 +67,9 @@ namespace Identity.Controllers
 				ModelState.AddModelError(string.Empty, "email veya sifre yanlisdir!!");
 				return View(model);
 			}
-            return RedirectToAction("index","home");
+			if (!string.IsNullOrEmpty(model.ReturnUrl) && Url.IsLocalUrl(model.ReturnUrl))
+				return Redirect(model.ReturnUrl);
+			return RedirectToAction("index","home");
         }
 
 		[HttpGet]

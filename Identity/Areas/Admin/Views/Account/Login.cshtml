@@ -1,0 +1,28 @@
+﻿@using Identity.Admin.Models.Account
+
+@model LoginVM
+@{
+	Layout = null;
+	string returnUrl = Context.Request.Query["returnUrl"];
+}
+<div asp-validation-summary="All"> </div>
+
+<form method="post" asp-action="Login" asp-controller="Account" class="login100-form validate-form">
+	<div class="form-group">
+		<input asp-for="EmailAddress" class="form-control" placeholder="Email">
+		<span class="text-danger" asp-validation-for="EmailAddress"> </span>
+	</div>
+	<input type="hidden" asp-for="ReturnUrl" value="@returnUrl" />
+	<div class="form-group">
+		<input asp-for="Password" class="form-control password-field" placeholder="Password">
+		<span toggle=".password-field" class="fa fa-fw fa-eye field-icon toggle-password"></span>
+		<span class="text-danger" asp-validation-for="Password"> </span>
+	</div>
+
+	<div class="container-login100-form-btn">
+		<button type="submit" class="login100-form-btn">
+			Login
+		</button>
+	</div>
+
+</form>
