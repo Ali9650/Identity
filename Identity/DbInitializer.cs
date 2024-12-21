@@ -35,7 +35,8 @@ namespace Identity
                     UserName = "Admin@app.com",
                     Country = "Azerbaijan",
                     Email = "Admin@app.com",
-                    City = "Baku"
+                    City = "Baku",
+                    IsSubscribe = true
                 };
 
                 var result = userManager.CreateAsync(user, "Admin12345!").Result;

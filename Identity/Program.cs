@@ -1,5 +1,8 @@
 using Identity.Data;
 using Identity.Entities;
+using Identity.Utilities.EmailHandler.Abstract;
+using Identity.Utilities.EmailHandler.Concrete;
+using Identity.Utilities.EmailHandler.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -22,9 +25,13 @@ namespace Identity
                 option.Password.RequireDigit = true;
                 option.User.RequireUniqueEmail = true;
 
-            }).AddEntityFrameworkStores<AppDbContext>();
+            }).AddEntityFrameworkStores<AppDbContext>().AddDefaultTokenProviders();
 
-            var app = builder.Build();
+			var emailConfiguration = builder.Configuration.GetSection("EmailConfiguration").Get<EmailConfiguration>();
+			builder.Services.AddSingleton(emailConfiguration);
+			builder.Services.AddScoped<IEmailService, EmailService>();
+
+			var app = builder.Build();
 			app.UseStaticFiles();
 			app.UseAuthentication();
 			app.UseAuthorization();

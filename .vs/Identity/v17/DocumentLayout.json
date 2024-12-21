@@ -3,24 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\HP\\Desktop\\visual stidio\\Identity\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{481F7336-12D3-4A3D-80B9-D512C053C05D}|Identity\\Identity.csproj|c:\\users\\hp\\desktop\\visual stidio\\identity\\identity\\areas\\admin\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{481F7336-12D3-4A3D-80B9-D512C053C05D}|Identity\\Identity.csproj|solutionrelative:identity\\areas\\admin\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{481F7336-12D3-4A3D-80B9-D512C053C05D}|Identity\\Identity.csproj|c:\\users\\hp\\desktop\\visual stidio\\identity\\identity\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{481F7336-12D3-4A3D-80B9-D512C053C05D}|Identity\\Identity.csproj|solutionrelative:identity\\areas\\admin\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{481F7336-12D3-4A3D-80B9-D512C053C05D}|Identity\\Identity.csproj|c:\\users\\hp\\desktop\\visual stidio\\identity\\identity\\areas\\admin\\models\\user\\uservm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{481F7336-12D3-4A3D-80B9-D512C053C05D}|Identity\\Identity.csproj|solutionrelative:identity\\areas\\admin\\models\\user\\uservm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{481F7336-12D3-4A3D-80B9-D512C053C05D}|Identity\\Identity.csproj|c:\\users\\hp\\desktop\\visual stidio\\identity\\identity\\areas\\admin\\models\\user\\userindexvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{481F7336-12D3-4A3D-80B9-D512C053C05D}|Identity\\Identity.csproj|solutionrelative:identity\\areas\\admin\\models\\user\\userindexvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{481F7336-12D3-4A3D-80B9-D512C053C05D}|Identity\\Identity.csproj|c:\\users\\hp\\desktop\\visual stidio\\identity\\identity\\areas\\admin\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{481F7336-12D3-4A3D-80B9-D512C053C05D}|Identity\\Identity.csproj|solutionrelative:identity\\areas\\admin\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{481F7336-12D3-4A3D-80B9-D512C053C05D}|Identity\\Identity.csproj|c:\\users\\hp\\desktop\\visual stidio\\identity\\identity\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{481F7336-12D3-4A3D-80B9-D512C053C05D}|Identity\\Identity.csproj|solutionrelative:identity\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{481F7336-12D3-4A3D-80B9-D512C053C05D}|Identity\\Identity.csproj|c:\\users\\hp\\desktop\\visual stidio\\identity\\identity\\areas\\admin\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{481F7336-12D3-4A3D-80B9-D512C053C05D}|Identity\\Identity.csproj|solutionrelative:identity\\areas\\admin\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,72 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\visual stidio\\Identity\\Identity\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Identity\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\visual stidio\\Identity\\Identity\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Identity\\Areas\\Admin\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAADAAAAAAAAAAAAAAAD0AAABYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-08T09:38:28.927Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UserIndexVM.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\visual stidio\\Identity\\Identity\\Areas\\Admin\\Models\\User\\UserIndexVM.cs",
-              "RelativeDocumentMoniker": "Identity\\Areas\\Admin\\Models\\User\\UserIndexVM.cs",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\visual stidio\\Identity\\Identity\\Areas\\Admin\\Models\\User\\UserIndexVM.cs",
-              "RelativeToolTip": "Identity\\Areas\\Admin\\Models\\User\\UserIndexVM.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAACAAAA",
+              "Title": "DbInitializer.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\visual stidio\\Identity\\Identity\\DbInitializer.cs",
+              "RelativeDocumentMoniker": "Identity\\DbInitializer.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\visual stidio\\Identity\\Identity\\DbInitializer.cs",
+              "RelativeToolTip": "Identity\\DbInitializer.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAawCYAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T09:33:56.431Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UserVM.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\visual stidio\\Identity\\Identity\\Areas\\Admin\\Models\\User\\UserVM.cs",
-              "RelativeDocumentMoniker": "Identity\\Areas\\Admin\\Models\\User\\UserVM.cs",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\visual stidio\\Identity\\Identity\\Areas\\Admin\\Models\\User\\UserVM.cs",
-              "RelativeToolTip": "Identity\\Areas\\Admin\\Models\\User\\UserVM.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAowAkAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T09:31:40.099Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\visual stidio\\Identity\\Identity\\Areas\\Admin\\Views\\User\\Index.cshtml",
-              "RelativeDocumentMoniker": "Identity\\Areas\\Admin\\Views\\User\\Index.cshtml",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\visual stidio\\Identity\\Identity\\Areas\\Admin\\Views\\User\\Index.cshtml",
-              "RelativeToolTip": "Identity\\Areas\\Admin\\Views\\User\\Index.cshtml",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAAC0AAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-08T09:31:08.467Z",
+              "WhenOpened": "2024-12-21T12:49:08.107Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\visual stidio\\Identity\\Identity\\Areas\\Admin\\Views\\User\\Index.cshtml",
+              "RelativeDocumentMoniker": "Identity\\Areas\\Admin\\Views\\User\\Index.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\visual stidio\\Identity\\Identity\\Areas\\Admin\\Views\\User\\Index.cshtml",
+              "RelativeToolTip": "Identity\\Areas\\Admin\\Views\\User\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-21T12:45:29.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\visual stidio\\Identity\\Identity\\Areas\\Admin\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "Identity\\Areas\\Admin\\Controllers\\UserController.cs",
               "ToolTip": "C:\\Users\\HP\\Desktop\\visual stidio\\Identity\\Identity\\Areas\\Admin\\Controllers\\UserController.cs",
               "RelativeToolTip": "Identity\\Areas\\Admin\\Controllers\\UserController.cs",
-              "ViewState": "AQIAACcAAAAAAAAAAAAwwDsAAAAAAAAA",
+              "ViewState": "AQIAACsAAAAAAAAAAAAiwEIAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T09:29:28.635Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-21T12:40:13.768Z"
             }
           ]
         }
